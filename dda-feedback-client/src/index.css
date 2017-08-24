@@ -1,0 +1,64 @@
+body {
+  font-size: 16px;
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+
+main {
+  position: relative;
+  max-width: 1024px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+main > h1 {
+  font-size: 30px;
+  margin-bottom: 40px;
+}
+
+main ul {
+  list-style: none;
+  padding: 0;
+}
+
+main ul li {
+  margin-bottom: 40px;
+}
+
+main ul li > p > strong {
+  display: inline-block;
+  margin-top: 10px;
+  margin-bottom: 20px;
+}
+
+form label {
+  display: block;
+  margin-bottom: 10px;
+}
+
+form input,
+form textarea {
+  display: block;
+  width: 100%;
+  font-size: 1rem;
+  box-sizing: border-box;
+}
+
+form input {
+  padding: 10px;
+}
+
+form input[type="submit"] {
+  padding: 10px;
+  font-size: 1rem;
+  -webkit-appearance: none;
+  background: #0022fb;
+  color: white;
+  cursor: pointer;
+  margin-top: 30px;
+}
+
+form textarea {
+  min-height: 100px;
+}
