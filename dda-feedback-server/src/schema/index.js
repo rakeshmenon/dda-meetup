@@ -1,7 +1,7 @@
 import { makeExecutableSchema, addMockFunctionsToSchema } from 'graphql-tools';
-import Query from './Query';
-import Mutation from './Mutation';
-import Subscription from './Subscription';
+import Query from './operations/Query';
+import Mutation from './operations/Mutation';
+import Subscription from './operations/Subscription';
 import Feedback from './types/feedback';
 import ResultsMeta from './types/results-meta';
 import resolvers from '../resolvers';

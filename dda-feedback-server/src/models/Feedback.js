@@ -15,7 +15,8 @@ const Feedback = sequelize.define('feedbacks', {
   },
 
   from: {
-    type: Sequelize.STRING
+    type: Sequelize.STRING,
+    allowNull: false
   },
 
   phone: {
