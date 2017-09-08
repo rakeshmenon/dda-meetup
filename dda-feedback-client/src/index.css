@@ -23,7 +23,9 @@ main ul {
 }
 
 main ul li {
-  margin-bottom: 40px;
+  margin-bottom: 20px;
+  border: 1px solid #999;
+  padding: 20px;
 }
 
 main ul li > p > strong {
