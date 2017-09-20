@@ -10,7 +10,7 @@
 - `yarn` or `npm install`
 - `yarn start` or `npm start`
 
-## Client codebase:
+## Client codebase (dda-meetup-client):
 
 - `yarn` or `npm install`
 - `yarn start` or `npm start`
