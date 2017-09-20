@@ -1,4 +1,4 @@
-#Setup instructions:
+# Setup instructions:
 
 - Setup MySQL on your machine
 - Create a user `ddameetup` with password `ddameetup`
